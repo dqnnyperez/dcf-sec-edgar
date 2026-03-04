@@ -58,3 +58,4 @@ python dcf_main.py AAPL --json
 - Bank/insurance companies may need different models
 - Assumptions (growth, WACC) are inputs — adjust based on your analysis
 - **Shares**: Uses most recent SEC filing (10-K, 10-Q) for split-adjusted counts. Growth stocks often trade above DCF value; try `--growth 0.15 --wacc 0.07` for higher intrinsic value.
+# dcf-sec-edgar
